@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  color: hsl(0, 0%, 98%);
+  background-color: hsl(190, 10%, 10%);
+}
+
+form {
+  border: 3px dashed hsl(190, 10%, 40%);
+  padding: 1.2rem;
+  width: 500px;
+  border-radius: 4px;
+}
+
+.inputs {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(6, 1fr);
+  margin-bottom: 0.8rem;
+}
+
+.inputs > * {
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  padding: 1.2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+input[type='submit'] {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+  font-size: 1.2rem;
+  padding: 1.2rem;
+  border: 0;
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+}
+
+input[type='submit']:focus {
+  border-color: hsl(190, 100%, 40%);
+}

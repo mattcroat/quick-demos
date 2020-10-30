@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "npx tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
+}
