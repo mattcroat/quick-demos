@@ -1,0 +1,8 @@
+body {
+  color: hsl(0, 0%, 98%);
+  background-color: hsl(190, 10%, 10%);
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  margin: 0;
+}
